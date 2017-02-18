@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'home/index'
+
+  get 'home/about'
+
+  get 'home/contact'
+
+  get 'home/faq'
+
   root 'home#index'
   
   get '/about' => 'home#about'
