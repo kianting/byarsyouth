@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   
   post '/question' => 'home#temp'
   
+  get '/questions/:id' => 'home#questions'
+  
   #get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
